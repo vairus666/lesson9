@@ -1,4 +1,6 @@
 
+
+
 def Fizz(a = 0, b = 0):
     for number in range(a, b):
         # if number % 3 == 0 and number % 5 == 0:
@@ -9,3 +11,7 @@ def Fizz(a = 0, b = 0):
         #     print('Buzz')
         else:
             print(number)
+
+a = int.input('a')
+b = int.input('b')
+print(Fizz(a,b))
